@@ -1,0 +1,15 @@
+body::before{
+    content: '';
+    display: block;
+    height: 60px;
+}
+#contact{
+    width: 85%;
+    height: 85%;
+    border-radius: 10px;
+}
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
